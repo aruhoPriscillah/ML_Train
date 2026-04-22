@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1-Score,Train Time (s),Model Size (KB),Size Reduction %
+Teacher (Self-Training GPC),0.9412,0.8858,0.9412,0.9127,0.0,3194.45,0.0
+Knowledge Distillation (DT Student),0.9412,0.8858,0.9412,0.9127,0.137,1.2,100.0
+Pruning (Reduced-Feature GPC),0.9412,0.8858,0.9412,0.9127,3.286,3085.22,3.4
+Quantisation (float32 GPC),0.9412,0.8858,0.9412,0.9127,0.008,3194.52,-0.0
